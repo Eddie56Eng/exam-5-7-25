@@ -1,0 +1,9 @@
+public class Patient {
+    private String patientId;
+    private String allergyNotes;
+
+    public Patient(String patientId, String allergyNotes) {
+        this.patientId = patientId;
+        this.allergyNotes = allergyNotes;
+    }
+}
