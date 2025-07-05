@@ -1,0 +1,20 @@
+public class Passenger {
+    private Location pickupLocation;
+    private Location destinationLocation;
+
+    public void setPickupLocation(Location location) {
+        this.pickupLocation = location;
+    }
+
+    public Location getPickupLocation() {
+        return pickupLocation;
+    }
+
+    public void setDestinationLocation(Location location) {
+        this.destinationLocation = location;
+    }
+
+    public Location getDestinationLocation() {
+        return destinationLocation;
+    }
+}
