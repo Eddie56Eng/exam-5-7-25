@@ -1,0 +1,9 @@
+public class PatientReport {
+    public void generateReport(String patientId) {
+        // Generate report in text format
+    }
+
+    public void generateReport(String patientId, String format) {
+        // Generate report in specified format (e.g. PDF, CSV)
+    }
+}
